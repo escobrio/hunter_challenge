@@ -1,0 +1,305 @@
+[0.000000] (-) TimerEvent: {}
+[0.000187] (four_ws_control) JobQueued: {'identifier': 'four_ws_control', 'dependencies': OrderedDict()}
+[0.000251] (hunter2_base) JobQueued: {'identifier': 'hunter2_base', 'dependencies': OrderedDict()}
+[0.000273] (hunter2_gazebo) JobQueued: {'identifier': 'hunter2_gazebo', 'dependencies': OrderedDict()}
+[0.000305] (hunter_se_description) JobQueued: {'identifier': 'hunter_se_description', 'dependencies': OrderedDict()}
+[0.000340] (hunter_se_gazebo) JobQueued: {'identifier': 'hunter_se_gazebo', 'dependencies': OrderedDict()}
+[0.000361] (ranger_mini) JobQueued: {'identifier': 'ranger_mini', 'dependencies': OrderedDict()}
+[0.000448] (scout_description) JobQueued: {'identifier': 'scout_description', 'dependencies': OrderedDict()}
+[0.000482] (scout_gazebo_sim) JobQueued: {'identifier': 'scout_gazebo_sim', 'dependencies': OrderedDict()}
+[0.000506] (tracer_description) JobQueued: {'identifier': 'tracer_description', 'dependencies': OrderedDict()}
+[0.000532] (tracer_gazebo_sim) JobQueued: {'identifier': 'tracer_gazebo_sim', 'dependencies': OrderedDict()}
+[0.000561] (four_ws_control) JobStarted: {'identifier': 'four_ws_control'}
+[0.004674] (hunter2_base) JobStarted: {'identifier': 'hunter2_base'}
+[0.005826] (hunter2_gazebo) JobStarted: {'identifier': 'hunter2_gazebo'}
+[0.007568] (hunter_se_description) JobStarted: {'identifier': 'hunter_se_description'}
+[0.010073] (hunter_se_gazebo) JobStarted: {'identifier': 'hunter_se_gazebo'}
+[0.012192] (ranger_mini) JobStarted: {'identifier': 'ranger_mini'}
+[0.014483] (scout_description) JobStarted: {'identifier': 'scout_description'}
+[0.016964] (scout_gazebo_sim) JobStarted: {'identifier': 'scout_gazebo_sim'}
+[0.023778] (four_ws_control) JobProgress: {'identifier': 'four_ws_control', 'progress': 'cmake'}
+[0.024744] (four_ws_control) Command: {'cmd': ['/usr/bin/cmake', '/workspace/Projects/hunter_ws/src/ugv_sim/ranger/four_ws_control', '-DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/src/install/four_ws_control'], 'cwd': '/workspace/Projects/hunter_ws/src/build/four_ws_control', 'env': OrderedDict([('HOSTNAME', 'c984cb07e31e'), ('SHLVL', '2'), ('BROWSER', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspace/Projects/hunter_ws'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-40edf652-7585-4731-8150-0c424d5bd73e.sock'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('SHELL', '/bin/bash'), ('PWD', '/workspace/Projects/hunter_ws/src/build/four_ws_control'), ('COLCON', '1')]), 'shell': False}
+[0.027668] (hunter2_base) JobProgress: {'identifier': 'hunter2_base', 'progress': 'cmake'}
+[0.028302] (hunter2_base) Command: {'cmd': ['/usr/bin/cmake', '/workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_base', '-DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/src/install/hunter2_base'], 'cwd': '/workspace/Projects/hunter_ws/src/build/hunter2_base', 'env': OrderedDict([('HOSTNAME', 'c984cb07e31e'), ('SHLVL', '2'), ('BROWSER', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspace/Projects/hunter_ws'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-40edf652-7585-4731-8150-0c424d5bd73e.sock'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('SHELL', '/bin/bash'), ('PWD', '/workspace/Projects/hunter_ws/src/build/hunter2_base'), ('COLCON', '1')]), 'shell': False}
+[0.030956] (hunter2_gazebo) JobProgress: {'identifier': 'hunter2_gazebo', 'progress': 'cmake'}
+[0.031219] (hunter2_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_gazebo', '-DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/src/install/hunter2_gazebo'], 'cwd': '/workspace/Projects/hunter_ws/src/build/hunter2_gazebo', 'env': OrderedDict([('HOSTNAME', 'c984cb07e31e'), ('SHLVL', '2'), ('BROWSER', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspace/Projects/hunter_ws'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-40edf652-7585-4731-8150-0c424d5bd73e.sock'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('SHELL', '/bin/bash'), ('PWD', '/workspace/Projects/hunter_ws/src/build/hunter2_gazebo'), ('COLCON', '1')]), 'shell': False}
+[0.033319] (hunter_se_description) JobProgress: {'identifier': 'hunter_se_description', 'progress': 'cmake'}
+[0.034051] (hunter_se_description) Command: {'cmd': ['/usr/bin/cmake', '/workspace/Projects/hunter_ws/src/ugv_sim/hunter_se/hunter_se_description', '-DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/src/install/hunter_se_description'], 'cwd': '/workspace/Projects/hunter_ws/src/build/hunter_se_description', 'env': OrderedDict([('HOSTNAME', 'c984cb07e31e'), ('SHLVL', '2'), ('BROWSER', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspace/Projects/hunter_ws'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-40edf652-7585-4731-8150-0c424d5bd73e.sock'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('SHELL', '/bin/bash'), ('PWD', '/workspace/Projects/hunter_ws/src/build/hunter_se_description'), ('COLCON', '1')]), 'shell': False}
+[0.041571] (hunter_se_gazebo) JobProgress: {'identifier': 'hunter_se_gazebo', 'progress': 'cmake'}
+[0.043531] (hunter_se_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/workspace/Projects/hunter_ws/src/ugv_sim/hunter_se/hunter_se_gazebo', '-DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/src/install/hunter_se_gazebo'], 'cwd': '/workspace/Projects/hunter_ws/src/build/hunter_se_gazebo', 'env': OrderedDict([('HOSTNAME', 'c984cb07e31e'), ('SHLVL', '2'), ('BROWSER', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspace/Projects/hunter_ws'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-40edf652-7585-4731-8150-0c424d5bd73e.sock'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('SHELL', '/bin/bash'), ('PWD', '/workspace/Projects/hunter_ws/src/build/hunter_se_gazebo'), ('COLCON', '1')]), 'shell': False}
+[0.047685] (ranger_mini) JobProgress: {'identifier': 'ranger_mini', 'progress': 'cmake'}
+[0.048516] (ranger_mini) Command: {'cmd': ['/usr/bin/cmake', '/workspace/Projects/hunter_ws/src/ugv_sim/ranger/ranger_mini', '-DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/src/install/ranger_mini'], 'cwd': '/workspace/Projects/hunter_ws/src/build/ranger_mini', 'env': OrderedDict([('HOSTNAME', 'c984cb07e31e'), ('SHLVL', '2'), ('BROWSER', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspace/Projects/hunter_ws'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-40edf652-7585-4731-8150-0c424d5bd73e.sock'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('SHELL', '/bin/bash'), ('PWD', '/workspace/Projects/hunter_ws/src/build/ranger_mini'), ('COLCON', '1')]), 'shell': False}
+[0.053977] (scout_description) JobProgress: {'identifier': 'scout_description', 'progress': 'cmake'}
+[0.058458] (scout_description) Command: {'cmd': ['/usr/bin/cmake', '/workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_description', '-DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/src/install/scout_description'], 'cwd': '/workspace/Projects/hunter_ws/src/build/scout_description', 'env': OrderedDict([('HOSTNAME', 'c984cb07e31e'), ('SHLVL', '2'), ('BROWSER', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspace/Projects/hunter_ws'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-40edf652-7585-4731-8150-0c424d5bd73e.sock'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('SHELL', '/bin/bash'), ('PWD', '/workspace/Projects/hunter_ws/src/build/scout_description'), ('COLCON', '1')]), 'shell': False}
+[0.061685] (scout_gazebo_sim) JobProgress: {'identifier': 'scout_gazebo_sim', 'progress': 'cmake'}
+[0.063771] (scout_gazebo_sim) Command: {'cmd': ['/usr/bin/cmake', '/workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_gazebo_sim', '-DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/src/install/scout_gazebo_sim'], 'cwd': '/workspace/Projects/hunter_ws/src/build/scout_gazebo_sim', 'env': OrderedDict([('HOSTNAME', 'c984cb07e31e'), ('SHLVL', '2'), ('BROWSER', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspace/Projects/hunter_ws'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-40edf652-7585-4731-8150-0c424d5bd73e.sock'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/root/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a59b01e8-6d61-4214-ba9b-fe9221a9f642.sock'), ('SHELL', '/bin/bash'), ('PWD', '/workspace/Projects/hunter_ws/src/build/scout_gazebo_sim'), ('COLCON', '1')]), 'shell': False}
+[0.099182] (-) TimerEvent: {}
+[0.185110] (four_ws_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.187079] (hunter2_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199333] (-) TimerEvent: {}
+[0.223086] (hunter2_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.227893] (hunter_se_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.228971] (hunter_se_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.242368] (ranger_mini) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299428] (-) TimerEvent: {}
+[0.359271] (hunter2_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.364756] (four_ws_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.366246] (hunter2_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.378104] (four_ws_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.378940] (ranger_mini) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.379940] (hunter2_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.380252] (hunter2_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.384911] (hunter_se_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.390114] (hunter_se_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.392722] (ranger_mini) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.397657] (hunter_se_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399589] (-) TimerEvent: {}
+[0.406273] (hunter_se_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.499720] (-) TimerEvent: {}
+[0.547402] (four_ws_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.560127] (ranger_mini) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.567007] (four_ws_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.567516] (four_ws_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.568246] (four_ws_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.570440] (hunter_se_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.574505] (four_ws_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.578108] (hunter2_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.579942] (hunter2_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.584418] (ranger_mini) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.584757] (ranger_mini) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.585239] (hunter_se_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.585445] (ranger_mini) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.590478] (hunter2_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.590776] (hunter2_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.590965] (ranger_mini) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.591406] (hunter2_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.595939] (hunter2_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.599794] (hunter2_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.600070] (-) TimerEvent: {}
+[0.600499] (hunter2_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.601447] (hunter2_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.606811] (hunter_se_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.607202] (hunter_se_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.608693] (hunter_se_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.608997] (hunter2_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.609233] (hunter_se_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.610221] (hunter_se_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.612711] (hunter_se_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.619852] (hunter_se_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.628057] (hunter_se_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700234] (-) TimerEvent: {}
+[0.800829] (four_ws_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.801148] (-) TimerEvent: {}
+[0.801894] (ranger_mini) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.823031] (four_ws_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.824498] (four_ws_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.827535] (four_ws_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.834564] (hunter2_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.839935] (ranger_mini) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.847255] (ranger_mini) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.847577] (ranger_mini) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.851344] (hunter2_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.863729] (hunter_se_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.865876] (hunter2_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.867259] (hunter_se_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.867595] (hunter2_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.868112] (four_ws_control) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.868373] (four_ws_control) StdoutLine: {'line': b'See also "/workspace/Projects/hunter_ws/src/build/four_ws_control/CMakeFiles/CMakeOutput.log".\n'}
+[0.868531] (hunter2_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.871350] (four_ws_control) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.871719] (four_ws_control) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.871908] (four_ws_control) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.872061] (four_ws_control) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.872219] (four_ws_control) StderrLine: {'line': b'\n'}
+[0.872375] (four_ws_control) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.872537] (four_ws_control) StderrLine: {'line': b'  any of the following names:\n'}
+[0.872682] (four_ws_control) StderrLine: {'line': b'\n'}
+[0.872830] (four_ws_control) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.872986] (four_ws_control) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.873140] (four_ws_control) StderrLine: {'line': b'\n'}
+[0.873291] (four_ws_control) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.873431] (four_ws_control) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.873550] (four_ws_control) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.873673] (four_ws_control) StderrLine: {'line': b'  has been installed.\n'}
+[0.873840] (four_ws_control) StderrLine: {'line': b'\n'}
+[0.874001] (four_ws_control) StderrLine: {'line': b'\x1b[0m\n'}
+[0.874318] (hunter2_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.874495] (hunter2_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.874637] (hunter2_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.881464] (ranger_mini) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.881797] (ranger_mini) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.881975] (ranger_mini) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.882116] (ranger_mini) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.882252] (ranger_mini) StderrLine: {'line': b'\n'}
+[0.882385] (ranger_mini) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.882521] (ranger_mini) StderrLine: {'line': b'  any of the following names:\n'}
+[0.882654] (ranger_mini) StderrLine: {'line': b'\n'}
+[0.882798] (ranger_mini) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.886183] (ranger_mini) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.886353] (ranger_mini) StderrLine: {'line': b'\n'}
+[0.886502] (ranger_mini) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.886626] (ranger_mini) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.886773] (ranger_mini) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.886900] (ranger_mini) StderrLine: {'line': b'  has been installed.\n'}
+[0.887094] (ranger_mini) StderrLine: {'line': b'\n'}
+[0.887239] (ranger_mini) StderrLine: {'line': b'\x1b[0m\n'}
+[0.887361] (ranger_mini) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.887547] (ranger_mini) StdoutLine: {'line': b'See also "/workspace/Projects/hunter_ws/src/build/ranger_mini/CMakeFiles/CMakeOutput.log".\n'}
+[0.887701] (scout_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.887962] (scout_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.893133] (scout_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.894694] (scout_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.894879] (scout_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.895218] (scout_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.895554] (scout_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.895718] (scout_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.895849] (scout_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.895975] (scout_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.896099] (scout_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.896221] (scout_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.896351] (four_ws_control) CommandEnded: {'returncode': 1}
+[0.897160] (scout_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.897853] (scout_description) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.898132] (scout_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.903719] (-) TimerEvent: {}
+[0.904393] (scout_description) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.904717] (scout_description) StderrLine: {'line': b'\n'}
+[0.905083] (scout_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.905296] (scout_description) StderrLine: {'line': b'  any of the following names:\n'}
+[0.905821] (scout_description) StderrLine: {'line': b'\n'}
+[0.906005] (scout_description) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.906932] (scout_description) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.908629] (scout_description) StderrLine: {'line': b'\n'}
+[0.909094] (scout_description) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.909447] (scout_description) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.911798] (scout_description) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.913318] (scout_description) StderrLine: {'line': b'  has been installed.\n'}
+[0.914573] (scout_description) StderrLine: {'line': b'\n'}
+[0.914785] (scout_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.914915] (scout_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.915068] (scout_description) StdoutLine: {'line': b'See also "/workspace/Projects/hunter_ws/src/build/scout_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.915212] (scout_gazebo_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.915373] (scout_gazebo_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.915504] (scout_gazebo_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.915631] (scout_gazebo_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.915756] (scout_gazebo_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.915879] (scout_gazebo_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.916006] (scout_gazebo_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.916137] (scout_gazebo_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.916277] (ranger_mini) CommandEnded: {'returncode': 1}
+[0.917118] (hunter_se_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.917520] (hunter_se_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.917708] (hunter_se_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.917872] (hunter_se_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.918051] (scout_gazebo_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.918215] (hunter_se_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.921907] (hunter_se_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.922185] (hunter2_base) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.923277] (hunter2_base) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.926418] (hunter2_base) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.926873] (hunter2_base) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.927460] (hunter2_base) StderrLine: {'line': b'\n'}
+[0.927888] (hunter2_base) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.929587] (hunter2_base) StderrLine: {'line': b'  any of the following names:\n'}
+[0.930320] (hunter2_base) StderrLine: {'line': b'\n'}
+[0.930486] (hunter2_base) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.930579] (hunter2_base) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.930666] (hunter2_base) StderrLine: {'line': b'\n'}
+[0.930749] (hunter2_base) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.932296] (hunter2_base) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.932510] (hunter2_base) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.932597] (hunter2_base) StderrLine: {'line': b'  has been installed.\n'}
+[0.932677] (hunter2_base) StderrLine: {'line': b'\n'}
+[0.933042] (hunter2_base) StderrLine: {'line': b'\x1b[0m\n'}
+[0.933165] (hunter2_base) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.933317] (hunter2_base) StdoutLine: {'line': b'See also "/workspace/Projects/hunter_ws/src/build/hunter2_base/CMakeFiles/CMakeOutput.log".\n'}
+[0.933464] (hunter2_gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.933846] (hunter2_gazebo) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.933995] (hunter2_gazebo) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.934233] (hunter2_gazebo) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.934368] (hunter2_gazebo) StderrLine: {'line': b'\n'}
+[0.934492] (hunter2_gazebo) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.934620] (hunter2_gazebo) StderrLine: {'line': b'  any of the following names:\n'}
+[0.936385] (hunter2_gazebo) StderrLine: {'line': b'\n'}
+[0.936781] (hunter2_gazebo) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.937216] (hunter2_gazebo) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.937422] (hunter2_gazebo) StderrLine: {'line': b'\n'}
+[0.937628] (hunter2_gazebo) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.938079] (hunter2_gazebo) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.939120] (hunter2_gazebo) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.940837] (hunter2_gazebo) StderrLine: {'line': b'  has been installed.\n'}
+[0.941810] (hunter2_gazebo) StderrLine: {'line': b'\n'}
+[0.941944] (hunter2_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.942070] (hunter2_gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.942223] (hunter2_gazebo) StdoutLine: {'line': b'See also "/workspace/Projects/hunter_ws/src/build/hunter2_gazebo/CMakeFiles/CMakeOutput.log".\n'}
+[0.942350] (hunter_se_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.942496] (hunter_se_description) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.942621] (hunter_se_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.942744] (hunter_se_description) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.942864] (hunter_se_description) StderrLine: {'line': b'\n'}
+[0.942985] (hunter_se_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.943133] (hunter_se_description) StderrLine: {'line': b'  any of the following names:\n'}
+[0.943256] (hunter_se_description) StderrLine: {'line': b'\n'}
+[0.943379] (hunter_se_description) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.943503] (hunter_se_description) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.943624] (hunter_se_description) StderrLine: {'line': b'\n'}
+[0.943745] (hunter_se_description) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.943870] (hunter_se_description) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.944001] (hunter_se_description) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.944132] (hunter_se_description) StderrLine: {'line': b'  has been installed.\n'}
+[0.944253] (hunter_se_description) StderrLine: {'line': b'\n'}
+[0.944376] (hunter_se_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.944479] (hunter_se_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.944591] (hunter_se_description) StdoutLine: {'line': b'See also "/workspace/Projects/hunter_ws/src/build/hunter_se_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.944701] (scout_gazebo_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.944817] (scout_gazebo_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.944925] (scout_gazebo_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.945031] (hunter_se_gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.945170] (hunter_se_gazebo) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.945278] (hunter_se_gazebo) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.945383] (hunter_se_gazebo) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.945486] (hunter_se_gazebo) StderrLine: {'line': b'\n'}
+[0.945591] (hunter_se_gazebo) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.945696] (hunter_se_gazebo) StderrLine: {'line': b'  any of the following names:\n'}
+[0.945801] (hunter_se_gazebo) StderrLine: {'line': b'\n'}
+[0.945904] (hunter_se_gazebo) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.946017] (hunter_se_gazebo) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.946120] (hunter_se_gazebo) StderrLine: {'line': b'\n'}
+[0.946224] (hunter_se_gazebo) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.946329] (hunter_se_gazebo) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.946433] (hunter_se_gazebo) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.946537] (hunter_se_gazebo) StderrLine: {'line': b'  has been installed.\n'}
+[0.946640] (hunter_se_gazebo) StderrLine: {'line': b'\n'}
+[0.946753] (hunter_se_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.946862] (hunter_se_gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.946973] (hunter_se_gazebo) StdoutLine: {'line': b'See also "/workspace/Projects/hunter_ws/src/build/hunter_se_gazebo/CMakeFiles/CMakeOutput.log".\n'}
+[0.947121] (four_ws_control) JobEnded: {'identifier': 'four_ws_control', 'rc': 1}
+[0.947668] (scout_description) JobEnded: {'identifier': 'scout_description', 'rc': 'SIGINT'}
+[0.948055] (hunter2_base) JobEnded: {'identifier': 'hunter2_base', 'rc': 'SIGINT'}
+[0.948399] (hunter2_gazebo) JobEnded: {'identifier': 'hunter2_gazebo', 'rc': 'SIGINT'}
+[0.948751] (ranger_mini) JobEnded: {'identifier': 'ranger_mini', 'rc': 'SIGINT'}
+[0.949083] (hunter_se_description) JobEnded: {'identifier': 'hunter_se_description', 'rc': 'SIGINT'}
+[0.949428] (hunter_se_gazebo) JobEnded: {'identifier': 'hunter_se_gazebo', 'rc': 'SIGINT'}
+[0.950355] (scout_gazebo_sim) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.950520] (scout_gazebo_sim) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.950695] (scout_gazebo_sim) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.950824] (scout_gazebo_sim) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.950931] (scout_gazebo_sim) StderrLine: {'line': b'\n'}
+[0.951222] (scout_gazebo_sim) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.951351] (scout_gazebo_sim) StderrLine: {'line': b'  any of the following names:\n'}
+[0.951459] (scout_gazebo_sim) StderrLine: {'line': b'\n'}
+[0.951564] (scout_gazebo_sim) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.951669] (scout_gazebo_sim) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.951773] (scout_gazebo_sim) StderrLine: {'line': b'\n'}
+[0.951875] (scout_gazebo_sim) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.951978] (scout_gazebo_sim) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.952083] (scout_gazebo_sim) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.952188] (scout_gazebo_sim) StderrLine: {'line': b'  has been installed.\n'}
+[0.952293] (scout_gazebo_sim) StderrLine: {'line': b'\n'}
+[0.952397] (scout_gazebo_sim) StderrLine: {'line': b'\x1b[0m\n'}
+[0.952503] (scout_gazebo_sim) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.952619] (scout_gazebo_sim) StdoutLine: {'line': b'See also "/workspace/Projects/hunter_ws/src/build/scout_gazebo_sim/CMakeFiles/CMakeOutput.log".\n'}
+[0.955640] (scout_gazebo_sim) JobEnded: {'identifier': 'scout_gazebo_sim', 'rc': 'SIGINT'}
+[0.966573] (tracer_description) JobSkipped: {'identifier': 'tracer_description'}
+[0.966699] (tracer_gazebo_sim) JobSkipped: {'identifier': 'tracer_gazebo_sim'}
+[0.966755] (-) EventReactorShutdown: {}

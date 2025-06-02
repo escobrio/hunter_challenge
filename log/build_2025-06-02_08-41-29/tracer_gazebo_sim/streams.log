@@ -1,0 +1,27 @@
+[0.528s] Invoking command in '/workspace/Projects/build/tracer_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/Projects/install/sevensense_pkg:/workspace/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/tracer_gazebo_sim -- -j8 -l8
+[0.570s] Invoked command in '/workspace/Projects/build/tracer_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/Projects/install/sevensense_pkg:/workspace/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/tracer_gazebo_sim -- -j8 -l8
+[0.572s] Invoking command in '/workspace/Projects/build/tracer_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/Projects/install/sevensense_pkg:/workspace/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/tracer_gazebo_sim
+[0.596s] -- Install configuration: ""
+[0.596s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/launch
+[0.596s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/launch/tracer.launch.py
+[0.597s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/launch/tracer_empty_world.launch.py
+[0.598s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/launch/tracer_spawn.launch.py
+[0.599s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/worlds
+[0.599s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/worlds/weston_robot_empty.world
+[0.599s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/worlds/clearpath_playpen.world
+[0.600s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/tracer_gazebo_sim
+[0.600s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/tracer_gazebo_sim
+[0.601s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/environment/ament_prefix_path.sh
+[0.601s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/environment/ament_prefix_path.dsv
+[0.601s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/environment/path.sh
+[0.602s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/environment/path.dsv
+[0.602s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/local_setup.bash
+[0.602s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/local_setup.sh
+[0.603s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/local_setup.zsh
+[0.603s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/local_setup.dsv
+[0.603s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/package.dsv
+[0.604s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/ament_index/resource_index/packages/tracer_gazebo_sim
+[0.605s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/cmake/tracer_gazebo_simConfig.cmake
+[0.605s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/cmake/tracer_gazebo_simConfig-version.cmake
+[0.605s] -- Up-to-date: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/package.xml
+[0.620s] Invoked command in '/workspace/Projects/build/tracer_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/Projects/install/sevensense_pkg:/workspace/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/tracer_gazebo_sim

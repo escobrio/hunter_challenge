@@ -1,0 +1,52 @@
+[0.586s] Invoking command in '/workspace/Projects/build/tracer_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/tracer/tracer_gazebo_sim -DCMAKE_INSTALL_PREFIX=/workspace/Projects/install/tracer_gazebo_sim
+[0.674s] -- The C compiler identification is GNU 11.4.0
+[0.757s] -- The CXX compiler identification is GNU 11.4.0
+[0.771s] -- Detecting C compiler ABI info
+[0.873s] -- Detecting C compiler ABI info - done
+[0.887s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.888s] -- Detecting C compile features
+[0.888s] -- Detecting C compile features - done
+[0.894s] -- Detecting CXX compiler ABI info
+[1.029s] -- Detecting CXX compiler ABI info - done
+[1.040s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.040s] -- Detecting CXX compile features
+[1.041s] -- Detecting CXX compile features - done
+[1.046s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.274s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.456s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.587s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.591s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.592s] -- Added test 'lint_cmake' to check CMake code style
+[1.593s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.596s] -- Added test 'xmllint' to check XML markup files
+[1.598s] -- Configuring done
+[1.605s] -- Generating done
+[1.608s] -- Build files have been written to: /workspace/Projects/build/tracer_gazebo_sim
+[1.620s] Invoked command in '/workspace/Projects/build/tracer_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/tracer/tracer_gazebo_sim -DCMAKE_INSTALL_PREFIX=/workspace/Projects/install/tracer_gazebo_sim
+[1.623s] Invoking command in '/workspace/Projects/build/tracer_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/tracer_gazebo_sim -- -j8 -l8
+[1.676s] Invoked command in '/workspace/Projects/build/tracer_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/tracer_gazebo_sim -- -j8 -l8
+[1.678s] Invoking command in '/workspace/Projects/build/tracer_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/tracer_gazebo_sim
+[1.689s] -- Install configuration: ""
+[1.690s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/launch
+[1.690s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/launch/tracer.launch.py
+[1.690s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/launch/tracer_empty_world.launch.py
+[1.690s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/launch/tracer_spawn.launch.py
+[1.691s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/worlds
+[1.691s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/worlds/weston_robot_empty.world
+[1.691s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/worlds/clearpath_playpen.world
+[1.693s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/tracer_gazebo_sim
+[1.694s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/tracer_gazebo_sim
+[1.694s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/environment/ament_prefix_path.sh
+[1.694s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/environment/ament_prefix_path.dsv
+[1.694s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/environment/path.sh
+[1.695s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/environment/path.dsv
+[1.695s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/local_setup.bash
+[1.695s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/local_setup.sh
+[1.695s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/local_setup.zsh
+[1.696s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/local_setup.dsv
+[1.696s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/package.dsv
+[1.696s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/ament_index/resource_index/packages/tracer_gazebo_sim
+[1.697s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/cmake/tracer_gazebo_simConfig.cmake
+[1.697s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/cmake/tracer_gazebo_simConfig-version.cmake
+[1.697s] -- Installing: /workspace/Projects/install/tracer_gazebo_sim/share/tracer_gazebo_sim/package.xml
+[1.701s] Invoked command in '/workspace/Projects/build/tracer_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/tracer_gazebo_sim

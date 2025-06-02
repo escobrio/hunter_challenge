@@ -1,0 +1,25 @@
+[1.054s] Invoking command in '/workspace/Projects/sevensense_pkg': PYTHONPATH=/workspace/Projects/build/sevensense_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/Projects/install/sevensense_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sevensense_pkg build --build-base /workspace/Projects/build/sevensense_pkg/build install --record /workspace/Projects/build/sevensense_pkg/install.log --single-version-externally-managed install_data
+[1.369s] running egg_info
+[1.370s] writing ../build/sevensense_pkg/sevensense_pkg.egg-info/PKG-INFO
+[1.370s] writing dependency_links to ../build/sevensense_pkg/sevensense_pkg.egg-info/dependency_links.txt
+[1.370s] writing entry points to ../build/sevensense_pkg/sevensense_pkg.egg-info/entry_points.txt
+[1.370s] writing requirements to ../build/sevensense_pkg/sevensense_pkg.egg-info/requires.txt
+[1.371s] writing top-level names to ../build/sevensense_pkg/sevensense_pkg.egg-info/top_level.txt
+[1.373s] reading manifest file '../build/sevensense_pkg/sevensense_pkg.egg-info/SOURCES.txt'
+[1.373s] adding license file 'LICENSE'
+[1.373s] writing manifest file '../build/sevensense_pkg/sevensense_pkg.egg-info/SOURCES.txt'
+[1.374s] running build
+[1.374s] running build_py
+[1.374s] copying sevensense_pkg/diff_to_ackermann.py -> /workspace/Projects/build/sevensense_pkg/build/lib/sevensense_pkg
+[1.374s] running install
+[1.374s] running install_lib
+[1.375s] copying /workspace/Projects/build/sevensense_pkg/build/lib/sevensense_pkg/diff_to_ackermann.py -> /workspace/Projects/install/sevensense_pkg/lib/python3.10/site-packages/sevensense_pkg
+[1.376s] byte-compiling /workspace/Projects/install/sevensense_pkg/lib/python3.10/site-packages/sevensense_pkg/diff_to_ackermann.py to diff_to_ackermann.cpython-310.pyc
+[1.377s] running install_data
+[1.377s] running install_egg_info
+[1.379s] removing '/workspace/Projects/install/sevensense_pkg/lib/python3.10/site-packages/sevensense_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.379s] Copying ../build/sevensense_pkg/sevensense_pkg.egg-info to /workspace/Projects/install/sevensense_pkg/lib/python3.10/site-packages/sevensense_pkg-0.0.0-py3.10.egg-info
+[1.380s] running install_scripts
+[1.409s] Installing talker script to /workspace/Projects/install/sevensense_pkg/lib/sevensense_pkg
+[1.409s] writing list of installed files to '/workspace/Projects/build/sevensense_pkg/install.log'
+[1.443s] Invoked command in '/workspace/Projects/sevensense_pkg' returned '0': PYTHONPATH=/workspace/Projects/build/sevensense_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/Projects/install/sevensense_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sevensense_pkg build --build-base /workspace/Projects/build/sevensense_pkg/build install --record /workspace/Projects/build/sevensense_pkg/install.log --single-version-externally-managed install_data

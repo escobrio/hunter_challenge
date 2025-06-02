@@ -1,0 +1,39 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/Projects/hunter_ws/build/hunter2_gazebo
+-- Install configuration: ""
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/launch
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/launch/hunter_spawn.launch.py
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/launch/hunter_gazebo.launch.py
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/launch/display.launch.py
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/launch/hunter_empty_world.launch.py
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/xacro
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/xacro/hunter2.gazebo
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/xacro/hunter2_description.xacro
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/world
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/world/house.world
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/scripts
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/scripts/gazebo_odometry.py
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/ament_index/resource_index/package_run_dependencies/hunter2_gazebo
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/ament_index/resource_index/parent_prefix_path/hunter2_gazebo
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/environment/ament_prefix_path.sh
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/environment/path.sh
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/environment/path.dsv
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/local_setup.bash
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/local_setup.sh
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/local_setup.zsh
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/local_setup.dsv
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/package.dsv
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/ament_index/resource_index/packages/hunter2_gazebo
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/cmake/hunter2_gazeboConfig.cmake
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/cmake/hunter2_gazeboConfig-version.cmake
+-- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/package.xml

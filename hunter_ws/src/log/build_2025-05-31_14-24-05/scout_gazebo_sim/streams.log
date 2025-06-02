@@ -1,0 +1,32 @@
+[0.048s] Invoking command in '/workspace/Projects/hunter_ws/src/build/scout_gazebo_sim': /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_gazebo_sim -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/src/install/scout_gazebo_sim
+[0.898s] -- The C compiler identification is GNU 11.4.0
+[0.898s] -- The CXX compiler identification is GNU 11.4.0
+[0.899s] -- Detecting C compiler ABI info
+[0.899s] -- Detecting C compiler ABI info - done
+[0.899s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.899s] -- Detecting C compile features
+[0.899s] -- Detecting C compile features - done
+[0.899s] -- Detecting CXX compiler ABI info
+[0.901s] -- Detecting CXX compiler ABI info - done
+[0.928s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.928s] -- Detecting CXX compile features
+[0.928s] -- Detecting CXX compile features - done
+[0.933s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[0.934s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.934s]   has asked CMake to find a package configuration file provided by
+[0.934s]   "ament_cmake", but CMake did not find one.
+[0.934s] 
+[0.934s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.934s]   any of the following names:
+[0.935s] 
+[0.935s]     ament_cmakeConfig.cmake
+[0.935s]     ament_cmake-config.cmake
+[0.935s] 
+[0.935s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.935s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.935s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.935s]   has been installed.
+[0.935s] 
+[0.935s] [0m
+[0.936s] -- Configuring incomplete, errors occurred!
+[0.936s] See also "/workspace/Projects/hunter_ws/src/build/scout_gazebo_sim/CMakeFiles/CMakeOutput.log".

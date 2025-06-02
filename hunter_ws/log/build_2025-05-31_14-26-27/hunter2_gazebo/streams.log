@@ -1,0 +1,45 @@
+[0.060s] Invoking command in '/workspace/Projects/hunter_ws/build/hunter2_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/hunter2_gazebo
+[0.147s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.536s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.767s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.979s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.987s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.988s] -- Added test 'lint_cmake' to check CMake code style
+[0.990s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.993s] -- Added test 'xmllint' to check XML markup files
+[0.995s] -- Configuring done
+[1.002s] -- Generating done
+[1.011s] -- Build files have been written to: /workspace/Projects/hunter_ws/build/hunter2_gazebo
+[1.029s] Invoked command in '/workspace/Projects/hunter_ws/build/hunter2_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/hunter2_gazebo
+[1.034s] Invoking command in '/workspace/Projects/hunter_ws/build/hunter2_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/hunter2_gazebo -- -j8 -l8
+[1.100s] Invoked command in '/workspace/Projects/hunter_ws/build/hunter2_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/hunter2_gazebo -- -j8 -l8
+[1.122s] Invoking command in '/workspace/Projects/hunter_ws/build/hunter2_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/hunter2_gazebo
+[1.140s] -- Install configuration: ""
+[1.141s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/launch
+[1.141s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/launch/hunter_spawn.launch.py
+[1.141s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/launch/hunter_gazebo.launch.py
+[1.141s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/launch/display.launch.py
+[1.141s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/launch/hunter_empty_world.launch.py
+[1.142s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/xacro
+[1.142s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/xacro/hunter2.gazebo
+[1.142s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/xacro/hunter2_description.xacro
+[1.142s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/world
+[1.145s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/world/house.world
+[1.145s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/scripts
+[1.145s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/scripts/gazebo_odometry.py
+[1.146s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/ament_index/resource_index/package_run_dependencies/hunter2_gazebo
+[1.146s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/ament_index/resource_index/parent_prefix_path/hunter2_gazebo
+[1.147s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/environment/ament_prefix_path.sh
+[1.147s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/environment/ament_prefix_path.dsv
+[1.148s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/environment/path.sh
+[1.148s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/environment/path.dsv
+[1.148s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/local_setup.bash
+[1.148s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/local_setup.sh
+[1.149s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/local_setup.zsh
+[1.149s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/local_setup.dsv
+[1.152s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/package.dsv
+[1.153s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/ament_index/resource_index/packages/hunter2_gazebo
+[1.154s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/cmake/hunter2_gazeboConfig.cmake
+[1.154s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/cmake/hunter2_gazeboConfig-version.cmake
+[1.154s] -- Installing: /workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/package.xml
+[1.170s] Invoked command in '/workspace/Projects/hunter_ws/build/hunter2_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/hunter2_gazebo

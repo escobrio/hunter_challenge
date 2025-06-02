@@ -1,0 +1,33 @@
+[0.036s] Invoking command in '/workspace/Projects/hunter_ws/src/build/ranger_mini': /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/ranger/ranger_mini -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/src/install/ranger_mini
+[0.230s] -- The C compiler identification is GNU 11.4.0
+[0.366s] -- The CXX compiler identification is GNU 11.4.0
+[0.380s] -- Detecting C compiler ABI info
+[0.547s] -- Detecting C compiler ABI info - done
+[0.572s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.572s] -- Detecting C compile features
+[0.573s] -- Detecting C compile features - done
+[0.578s] -- Detecting CXX compiler ABI info
+[0.789s] -- Detecting CXX compiler ABI info - done
+[0.827s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.835s] -- Detecting CXX compile features
+[0.835s] -- Detecting CXX compile features - done
+[0.869s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[0.869s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.869s]   has asked CMake to find a package configuration file provided by
+[0.869s]   "ament_cmake", but CMake did not find one.
+[0.869s] 
+[0.870s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.870s]   any of the following names:
+[0.870s] 
+[0.873s]     ament_cmakeConfig.cmake
+[0.873s]     ament_cmake-config.cmake
+[0.874s] 
+[0.874s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.874s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.874s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.874s]   has been installed.
+[0.874s] 
+[0.874s] [0m
+[0.875s] -- Configuring incomplete, errors occurred!
+[0.875s] See also "/workspace/Projects/hunter_ws/src/build/ranger_mini/CMakeFiles/CMakeOutput.log".
+[0.904s] Invoked command in '/workspace/Projects/hunter_ws/src/build/ranger_mini' returned '1': /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/ranger/ranger_mini -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/src/install/ranger_mini

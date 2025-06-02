@@ -1,0 +1,57 @@
+[0.082s] Invoking command in '/workspace/Projects/build/hunter2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/Projects/install/hunter2_gazebo
+[0.311s] -- The C compiler identification is GNU 11.4.0
+[0.517s] -- The CXX compiler identification is GNU 11.4.0
+[0.539s] -- Detecting C compiler ABI info
+[0.733s] -- Detecting C compiler ABI info - done
+[0.753s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.759s] -- Detecting C compile features
+[0.760s] -- Detecting C compile features - done
+[0.770s] -- Detecting CXX compiler ABI info
+[0.984s] -- Detecting CXX compiler ABI info - done
+[1.006s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.006s] -- Detecting CXX compile features
+[1.008s] -- Detecting CXX compile features - done
+[1.025s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.491s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.783s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.049s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.057s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.060s] -- Added test 'lint_cmake' to check CMake code style
+[2.062s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.066s] -- Added test 'xmllint' to check XML markup files
+[2.070s] -- Configuring done
+[2.082s] -- Generating done
+[2.084s] -- Build files have been written to: /workspace/Projects/build/hunter2_gazebo
+[2.116s] Invoked command in '/workspace/Projects/build/hunter2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/Projects/install/hunter2_gazebo
+[2.117s] Invoking command in '/workspace/Projects/build/hunter2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/hunter2_gazebo -- -j8 -l8
+[2.216s] Invoked command in '/workspace/Projects/build/hunter2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/hunter2_gazebo -- -j8 -l8
+[2.217s] Invoking command in '/workspace/Projects/build/hunter2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/hunter2_gazebo
+[2.244s] -- Install configuration: ""
+[2.244s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/launch
+[2.244s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/launch/hunter_spawn.launch.py
+[2.245s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/launch/hunter_gazebo.launch.py
+[2.245s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/launch/display.launch.py
+[2.246s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/launch/hunter_empty_world.launch.py
+[2.246s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/xacro
+[2.246s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/xacro/hunter2.gazebo
+[2.247s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/xacro/hunter2_description.xacro
+[2.247s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/world
+[2.249s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/world/house.world
+[2.251s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/scripts
+[2.252s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/scripts/gazebo_odometry.py
+[2.252s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/ament_index/resource_index/package_run_dependencies/hunter2_gazebo
+[2.252s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/ament_index/resource_index/parent_prefix_path/hunter2_gazebo
+[2.253s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/environment/ament_prefix_path.sh
+[2.253s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/environment/ament_prefix_path.dsv
+[2.254s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/environment/path.sh
+[2.257s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/environment/path.dsv
+[2.257s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/local_setup.bash
+[2.257s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/local_setup.sh
+[2.258s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/local_setup.zsh
+[2.258s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/local_setup.dsv
+[2.258s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/package.dsv
+[2.258s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/ament_index/resource_index/packages/hunter2_gazebo
+[2.258s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/cmake/hunter2_gazeboConfig.cmake
+[2.259s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/cmake/hunter2_gazeboConfig-version.cmake
+[2.259s] -- Installing: /workspace/Projects/install/hunter2_gazebo/share/hunter2_gazebo/package.xml
+[2.353s] Invoked command in '/workspace/Projects/build/hunter2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/hunter2_gazebo

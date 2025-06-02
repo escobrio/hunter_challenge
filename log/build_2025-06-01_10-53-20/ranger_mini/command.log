@@ -1,0 +1,6 @@
+Invoking command in '/workspace/Projects/build/ranger_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/ranger/ranger_mini -DCMAKE_INSTALL_PREFIX=/workspace/Projects/install/ranger_mini
+Invoked command in '/workspace/Projects/build/ranger_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/ranger/ranger_mini -DCMAKE_INSTALL_PREFIX=/workspace/Projects/install/ranger_mini
+Invoking command in '/workspace/Projects/build/ranger_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/ranger_mini -- -j8 -l8
+Invoked command in '/workspace/Projects/build/ranger_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/ranger_mini -- -j8 -l8
+Invoking command in '/workspace/Projects/build/ranger_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/ranger_mini
+Invoked command in '/workspace/Projects/build/ranger_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/ranger_mini

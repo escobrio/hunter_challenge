@@ -1,0 +1,32 @@
+running egg_info
+creating ../build/sevensense_pkg/sevensense_pkg.egg-info
+writing ../build/sevensense_pkg/sevensense_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/sevensense_pkg/sevensense_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/sevensense_pkg/sevensense_pkg.egg-info/entry_points.txt
+writing requirements to ../build/sevensense_pkg/sevensense_pkg.egg-info/requires.txt
+writing top-level names to ../build/sevensense_pkg/sevensense_pkg.egg-info/top_level.txt
+writing manifest file '../build/sevensense_pkg/sevensense_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/sevensense_pkg/sevensense_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/sevensense_pkg/sevensense_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/Projects/build/sevensense_pkg/build
+creating /workspace/Projects/build/sevensense_pkg/build/lib
+creating /workspace/Projects/build/sevensense_pkg/build/lib/sevensense_pkg
+copying sevensense_pkg/__init__.py -> /workspace/Projects/build/sevensense_pkg/build/lib/sevensense_pkg
+running install
+running install_lib
+creating /workspace/Projects/install/sevensense_pkg/lib/python3.10/site-packages/sevensense_pkg
+copying /workspace/Projects/build/sevensense_pkg/build/lib/sevensense_pkg/__init__.py -> /workspace/Projects/install/sevensense_pkg/lib/python3.10/site-packages/sevensense_pkg
+byte-compiling /workspace/Projects/install/sevensense_pkg/lib/python3.10/site-packages/sevensense_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /workspace/Projects/install/sevensense_pkg/share/ament_index
+creating /workspace/Projects/install/sevensense_pkg/share/ament_index/resource_index
+creating /workspace/Projects/install/sevensense_pkg/share/ament_index/resource_index/packages
+copying resource/sevensense_pkg -> /workspace/Projects/install/sevensense_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/Projects/install/sevensense_pkg/share/sevensense_pkg
+running install_egg_info
+Copying ../build/sevensense_pkg/sevensense_pkg.egg-info to /workspace/Projects/install/sevensense_pkg/lib/python3.10/site-packages/sevensense_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/workspace/Projects/build/sevensense_pkg/install.log'

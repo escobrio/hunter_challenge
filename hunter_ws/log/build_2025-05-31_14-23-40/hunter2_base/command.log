@@ -1,0 +1,1 @@
+Invoking command in '/workspace/Projects/hunter_ws/build/hunter2_base': /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_base -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/hunter2_base

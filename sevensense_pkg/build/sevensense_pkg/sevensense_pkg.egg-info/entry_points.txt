@@ -1,0 +1,3 @@
+[console_scripts]
+talker = sevensense_pkg.diff_to_ackermann:main
+

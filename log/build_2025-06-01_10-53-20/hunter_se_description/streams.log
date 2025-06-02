@@ -1,0 +1,63 @@
+[0.078s] Invoking command in '/workspace/Projects/build/hunter_se_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter_se/hunter_se_description -DCMAKE_INSTALL_PREFIX=/workspace/Projects/install/hunter_se_description
+[0.301s] -- The C compiler identification is GNU 11.4.0
+[0.508s] -- The CXX compiler identification is GNU 11.4.0
+[0.535s] -- Detecting C compiler ABI info
+[0.736s] -- Detecting C compiler ABI info - done
+[0.748s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.750s] -- Detecting C compile features
+[0.752s] -- Detecting C compile features - done
+[0.759s] -- Detecting CXX compiler ABI info
+[0.983s] -- Detecting CXX compiler ABI info - done
+[1.010s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.011s] -- Detecting CXX compile features
+[1.013s] -- Detecting CXX compile features - done
+[1.024s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.469s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.768s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.042s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.053s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.055s] -- Added test 'lint_cmake' to check CMake code style
+[2.057s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.062s] -- Added test 'xmllint' to check XML markup files
+[2.065s] -- Configuring done
+[2.075s] -- Generating done
+[2.080s] -- Build files have been written to: /workspace/Projects/build/hunter_se_description
+[2.119s] Invoked command in '/workspace/Projects/build/hunter_se_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter_se/hunter_se_description -DCMAKE_INSTALL_PREFIX=/workspace/Projects/install/hunter_se_description
+[2.122s] Invoking command in '/workspace/Projects/build/hunter_se_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/hunter_se_description -- -j8 -l8
+[2.307s] Invoked command in '/workspace/Projects/build/hunter_se_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/hunter_se_description -- -j8 -l8
+[2.319s] Invoking command in '/workspace/Projects/build/hunter_se_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/hunter_se_description
+[2.349s] -- Install configuration: ""
+[2.350s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/launch
+[2.351s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/launch/display.launch.py
+[2.351s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/meshes
+[2.352s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/meshes/fr_left_link.STL
+[2.352s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/meshes/re_right_link.STL
+[2.353s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/meshes/fr_steer_left_link.STL
+[2.354s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/meshes/re_left_link.STL
+[2.354s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/meshes/fr_steer_right_link.STL
+[2.354s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/meshes/base_link.STL
+[2.356s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/meshes/fr_right_link.STL
+[2.360s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/rviz
+[2.361s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/rviz/rviz.rviz
+[2.361s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/urdf
+[2.363s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/urdf/hunter_se_description.csv
+[2.365s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/urdf/hunter_se_description.urdf
+[2.365s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/urdf/hunter_se_description.xacro
+[2.367s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/config
+[2.371s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/config/joint_names_hunter_se_description_2.yaml
+[2.372s] -- Installing: /workspace/Projects/install/hunter_se_description/share/ament_index/resource_index/package_run_dependencies/hunter_se_description
+[2.401s] -- Installing: /workspace/Projects/install/hunter_se_description/share/ament_index/resource_index/parent_prefix_path/hunter_se_description
+[2.408s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/environment/ament_prefix_path.sh
+[2.408s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/environment/ament_prefix_path.dsv
+[2.408s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/environment/path.sh
+[2.409s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/environment/path.dsv
+[2.409s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/local_setup.bash
+[2.409s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/local_setup.sh
+[2.409s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/local_setup.zsh
+[2.409s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/local_setup.dsv
+[2.409s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/package.dsv
+[2.410s] -- Installing: /workspace/Projects/install/hunter_se_description/share/ament_index/resource_index/packages/hunter_se_description
+[2.410s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/cmake/hunter_se_descriptionConfig.cmake
+[2.410s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/cmake/hunter_se_descriptionConfig-version.cmake
+[2.410s] -- Installing: /workspace/Projects/install/hunter_se_description/share/hunter_se_description/package.xml
+[2.528s] Invoked command in '/workspace/Projects/build/hunter_se_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/hunter_se_description

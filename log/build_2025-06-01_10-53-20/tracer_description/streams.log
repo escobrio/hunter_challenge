@@ -1,0 +1,75 @@
+[0.603s] Invoking command in '/workspace/Projects/build/tracer_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/tracer/tracer_description -DCMAKE_INSTALL_PREFIX=/workspace/Projects/install/tracer_description
+[0.707s] -- The C compiler identification is GNU 11.4.0
+[0.791s] -- The CXX compiler identification is GNU 11.4.0
+[0.802s] -- Detecting C compiler ABI info
+[0.908s] -- Detecting C compiler ABI info - done
+[0.928s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.929s] -- Detecting C compile features
+[0.930s] -- Detecting C compile features - done
+[0.937s] -- Detecting CXX compiler ABI info
+[1.061s] -- Detecting CXX compiler ABI info - done
+[1.078s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.078s] -- Detecting CXX compile features
+[1.079s] -- Detecting CXX compile features - done
+[1.088s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.309s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.469s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.601s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.609s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.611s] -- Added test 'lint_cmake' to check CMake code style
+[1.612s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.617s] -- Added test 'xmllint' to check XML markup files
+[1.619s] -- Configuring done
+[1.625s] -- Generating done
+[1.628s] -- Build files have been written to: /workspace/Projects/build/tracer_description
+[1.635s] Invoked command in '/workspace/Projects/build/tracer_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/tracer/tracer_description -DCMAKE_INSTALL_PREFIX=/workspace/Projects/install/tracer_description
+[1.637s] Invoking command in '/workspace/Projects/build/tracer_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/tracer_description -- -j8 -l8
+[1.695s] Invoked command in '/workspace/Projects/build/tracer_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/tracer_description -- -j8 -l8
+[1.698s] Invoking command in '/workspace/Projects/build/tracer_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/tracer_description
+[1.708s] -- Install configuration: ""
+[1.708s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/launch
+[1.708s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/launch/display_tracer.launch.py
+[1.709s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/meshes
+[1.709s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/meshes/tracer_base_link_no_wheel.dae
+[1.739s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/meshes/tracer_base_link.dae
+[1.983s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/meshes/caster_L.stl
+[1.984s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/meshes/tracer_wheel.dae
+[1.990s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/meshes/castor.dae
+[1.993s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/meshes/castor_joint.dae
+[1.997s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/meshes/caster.stl
+[1.998s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/rviz
+[1.999s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/rviz/model_display.rviz
+[1.999s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/rviz/scout_mini_model_display.rviz
+[2.000s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/rviz/navigation.rviz
+[2.002s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/rviz/model_diaplay.rviz
+[2.002s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/urdf
+[2.003s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/urdf/tracer_wheel.gazebo
+[2.004s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/urdf/tracer_v1.xacro
+[2.005s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/urdf/rr_castor.xacro
+[2.007s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/urdf/fl_wheel.xacro
+[2.007s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/urdf/fr_castor.xacro
+[2.008s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/urdf/fl_castor.xacro
+[2.009s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/urdf/empty.urdf
+[2.009s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/urdf/rr_wheel.xacro
+[2.010s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/urdf/rl_wheel.xacro
+[2.010s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/urdf/tracer_wheel_1.xacro
+[2.011s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/urdf/fr_wheel.xacro
+[2.011s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/urdf/tracer_wheel_2.xacro
+[2.012s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/urdf/rl_castor.xacro
+[2.012s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/urdf/tracer.gazebo
+[2.014s] -- Installing: /workspace/Projects/install/tracer_description/share/ament_index/resource_index/package_run_dependencies/tracer_description
+[2.015s] -- Installing: /workspace/Projects/install/tracer_description/share/ament_index/resource_index/parent_prefix_path/tracer_description
+[2.016s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/environment/ament_prefix_path.sh
+[2.017s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/environment/ament_prefix_path.dsv
+[2.017s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/environment/path.sh
+[2.017s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/environment/path.dsv
+[2.018s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/local_setup.bash
+[2.018s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/local_setup.sh
+[2.019s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/local_setup.zsh
+[2.019s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/local_setup.dsv
+[2.020s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/package.dsv
+[2.020s] -- Installing: /workspace/Projects/install/tracer_description/share/ament_index/resource_index/packages/tracer_description
+[2.021s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/cmake/tracer_descriptionConfig.cmake
+[2.021s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/cmake/tracer_descriptionConfig-version.cmake
+[2.022s] -- Installing: /workspace/Projects/install/tracer_description/share/tracer_description/package.xml
+[2.027s] Invoked command in '/workspace/Projects/build/tracer_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/tracer_description

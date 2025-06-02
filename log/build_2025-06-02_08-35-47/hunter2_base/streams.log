@@ -1,0 +1,40 @@
+[0.083s] Invoking command in '/workspace/Projects/build/hunter2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/hunter2_base -- -j8 -l8
+[0.266s] Invoked command in '/workspace/Projects/build/hunter2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/hunter2_base -- -j8 -l8
+[0.270s] Invoking command in '/workspace/Projects/build/hunter2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/hunter2_base
+[0.303s] -- Install configuration: ""
+[0.304s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/launch
+[0.304s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/launch/display.launch.py
+[0.305s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/meshes
+[0.305s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/meshes/left_rear_link.STL
+[0.305s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/meshes/front_steer_left_link.STL
+[0.305s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/meshes/front_steer_link.STL
+[0.307s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/meshes/front_left_wheel_link.STL
+[0.307s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/meshes/front_steer_right_link.STL
+[0.307s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/meshes/rear_wheel_link.STL
+[0.307s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/meshes/front_right_wheel_link.STL
+[0.308s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/meshes/right_rear_link.STL
+[0.308s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/meshes/base_link.STL
+[0.309s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/rviz
+[0.309s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/rviz/display.rviz
+[0.309s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/urdf
+[0.309s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/urdf/hunter2_base_gazebo.xacro
+[0.310s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/urdf/hunter2_base.csv
+[0.310s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/urdf/hunter2_base.urdf
+[0.310s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/config
+[0.310s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/config/joint_names_hunter2_base.yaml
+[0.310s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/ament_index/resource_index/package_run_dependencies/hunter2_base
+[0.310s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/ament_index/resource_index/parent_prefix_path/hunter2_base
+[0.311s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/environment/ament_prefix_path.sh
+[0.311s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/environment/ament_prefix_path.dsv
+[0.311s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/environment/path.sh
+[0.311s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/environment/path.dsv
+[0.311s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/local_setup.bash
+[0.311s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/local_setup.sh
+[0.311s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/local_setup.zsh
+[0.312s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/local_setup.dsv
+[0.312s] -- Installing: /workspace/Projects/install/hunter2_base/share/hunter2_base/package.dsv
+[0.312s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/ament_index/resource_index/packages/hunter2_base
+[0.312s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/cmake/hunter2_baseConfig.cmake
+[0.312s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/cmake/hunter2_baseConfig-version.cmake
+[0.314s] -- Up-to-date: /workspace/Projects/install/hunter2_base/share/hunter2_base/package.xml
+[0.409s] Invoked command in '/workspace/Projects/build/hunter2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/hunter2_base

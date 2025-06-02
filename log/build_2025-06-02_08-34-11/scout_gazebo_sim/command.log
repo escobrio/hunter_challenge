@@ -1,0 +1,4 @@
+Invoking command in '/workspace/Projects/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/Projects/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/scout_gazebo_sim -- -j8 -l8
+Invoked command in '/workspace/Projects/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/Projects/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/scout_gazebo_sim -- -j8 -l8
+Invoking command in '/workspace/Projects/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/Projects/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/scout_gazebo_sim
+Invoked command in '/workspace/Projects/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/Projects/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/scout_gazebo_sim

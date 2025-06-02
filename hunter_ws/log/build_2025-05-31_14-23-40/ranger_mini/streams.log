@@ -1,0 +1,32 @@
+[0.079s] Invoking command in '/workspace/Projects/hunter_ws/build/ranger_mini': /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/ranger/ranger_mini -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/ranger_mini
+[0.278s] -- The C compiler identification is GNU 11.4.0
+[0.458s] -- The CXX compiler identification is GNU 11.4.0
+[0.480s] -- Detecting C compiler ABI info
+[0.672s] -- Detecting C compiler ABI info - done
+[0.691s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.691s] -- Detecting C compile features
+[0.692s] -- Detecting C compile features - done
+[0.706s] -- Detecting CXX compiler ABI info
+[0.990s] -- Detecting CXX compiler ABI info - done
+[1.016s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.018s] -- Detecting CXX compile features
+[1.022s] -- Detecting CXX compile features - done
+[1.059s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[1.059s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.059s]   has asked CMake to find a package configuration file provided by
+[1.059s]   "ament_cmake", but CMake did not find one.
+[1.060s] 
+[1.061s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.062s]   any of the following names:
+[1.063s] 
+[1.063s]     ament_cmakeConfig.cmake
+[1.064s]     ament_cmake-config.cmake
+[1.064s] 
+[1.065s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.065s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.066s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.067s]   has been installed.
+[1.067s] 
+[1.068s] [0m
+[1.073s] -- Configuring incomplete, errors occurred!
+[1.073s] See also "/workspace/Projects/hunter_ws/build/ranger_mini/CMakeFiles/CMakeOutput.log".

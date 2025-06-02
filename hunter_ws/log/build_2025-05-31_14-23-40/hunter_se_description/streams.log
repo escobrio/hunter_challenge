@@ -1,0 +1,32 @@
+[0.050s] Invoking command in '/workspace/Projects/hunter_ws/build/hunter_se_description': /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter_se/hunter_se_description -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/hunter_se_description
+[0.282s] -- The C compiler identification is GNU 11.4.0
+[0.489s] -- The CXX compiler identification is GNU 11.4.0
+[0.504s] -- Detecting C compiler ABI info
+[0.725s] -- Detecting C compiler ABI info - done
+[0.749s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.750s] -- Detecting C compile features
+[0.751s] -- Detecting C compile features - done
+[0.764s] -- Detecting CXX compiler ABI info
+[0.980s] -- Detecting CXX compiler ABI info - done
+[1.004s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.004s] -- Detecting CXX compile features
+[1.010s] -- Detecting CXX compile features - done
+[1.044s] -- Configuring incomplete, errors occurred!
+[1.045s] See also "/workspace/Projects/hunter_ws/build/hunter_se_description/CMakeFiles/CMakeOutput.log".
+[1.045s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[1.046s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.046s]   has asked CMake to find a package configuration file provided by
+[1.047s]   "ament_cmake", but CMake did not find one.
+[1.047s] 
+[1.048s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.048s]   any of the following names:
+[1.049s] 
+[1.049s]     ament_cmakeConfig.cmake
+[1.049s]     ament_cmake-config.cmake
+[1.050s] 
+[1.050s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.050s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.050s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.050s]   has been installed.
+[1.052s] 
+[1.052s] [0m

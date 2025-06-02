@@ -1,0 +1,6 @@
+source;share/sevensense_pkg/hook/pythonpath.ps1
+source;share/sevensense_pkg/hook/pythonpath.dsv
+source;share/sevensense_pkg/hook/pythonpath.sh
+source;share/sevensense_pkg/hook/ament_prefix_path.ps1
+source;share/sevensense_pkg/hook/ament_prefix_path.dsv
+source;share/sevensense_pkg/hook/ament_prefix_path.sh

@@ -1,0 +1,3 @@
+[console_scripts]
+vel_pub = sevensense_pkg.diff_to_ackermann:main
+

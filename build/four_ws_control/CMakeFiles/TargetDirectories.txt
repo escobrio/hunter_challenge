@@ -1,0 +1,9 @@
+/workspace/Projects/build/four_ws_control/CMakeFiles/uninstall.dir
+/workspace/Projects/build/four_ws_control/CMakeFiles/four_ws_control_uninstall.dir
+/workspace/Projects/build/four_ws_control/CMakeFiles/test.dir
+/workspace/Projects/build/four_ws_control/CMakeFiles/edit_cache.dir
+/workspace/Projects/build/four_ws_control/CMakeFiles/rebuild_cache.dir
+/workspace/Projects/build/four_ws_control/CMakeFiles/list_install_components.dir
+/workspace/Projects/build/four_ws_control/CMakeFiles/install.dir
+/workspace/Projects/build/four_ws_control/CMakeFiles/install/local.dir
+/workspace/Projects/build/four_ws_control/CMakeFiles/install/strip.dir

@@ -1,0 +1,6 @@
+Invoking command in '/workspace/Projects/hunter_ws/build/hunter2_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_base -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/hunter2_base
+Invoked command in '/workspace/Projects/hunter_ws/build/hunter2_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_base -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/hunter2_base
+Invoking command in '/workspace/Projects/hunter_ws/build/hunter2_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/hunter2_base -- -j8 -l8
+Invoked command in '/workspace/Projects/hunter_ws/build/hunter2_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/hunter2_base -- -j8 -l8
+Invoking command in '/workspace/Projects/hunter_ws/build/hunter2_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/hunter2_base
+Invoked command in '/workspace/Projects/hunter_ws/build/hunter2_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/hunter2_base

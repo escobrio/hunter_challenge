@@ -1,0 +1,33 @@
+[0.080s] Invoking command in '/workspace/Projects/hunter_ws/build/scout_description': /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_description -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/scout_description
+[1.009s] -- The C compiler identification is GNU 11.4.0
+[1.009s] -- The CXX compiler identification is GNU 11.4.0
+[1.010s] -- Detecting C compiler ABI info
+[1.010s] -- Detecting C compiler ABI info - done
+[1.010s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.010s] -- Detecting C compile features
+[1.010s] -- Detecting C compile features - done
+[1.010s] -- Detecting CXX compiler ABI info
+[1.010s] -- Detecting CXX compiler ABI info - done
+[1.011s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.011s] -- Detecting CXX compile features
+[1.011s] -- Detecting CXX compile features - done
+[1.011s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[1.011s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.011s]   has asked CMake to find a package configuration file provided by
+[1.011s]   "ament_cmake", but CMake did not find one.
+[1.012s] 
+[1.012s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.012s]   any of the following names:
+[1.012s] 
+[1.012s]     ament_cmakeConfig.cmake
+[1.012s]     ament_cmake-config.cmake
+[1.012s] 
+[1.013s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.013s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.013s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.013s]   has been installed.
+[1.013s] 
+[1.013s] [0m
+[1.013s] -- Configuring incomplete, errors occurred!
+[1.014s] See also "/workspace/Projects/hunter_ws/build/scout_description/CMakeFiles/CMakeOutput.log".
+[1.043s] Invoked command in '/workspace/Projects/hunter_ws/build/scout_description' returned '1': /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_description -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/scout_description

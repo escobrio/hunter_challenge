@@ -1,0 +1,6 @@
+Invoking command in '/workspace/Projects/hunter_ws/build/scout_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_description -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/scout_description
+Invoked command in '/workspace/Projects/hunter_ws/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_description -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/scout_description
+Invoking command in '/workspace/Projects/hunter_ws/build/scout_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/scout_description -- -j8 -l8
+Invoked command in '/workspace/Projects/hunter_ws/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/scout_description -- -j8 -l8
+Invoking command in '/workspace/Projects/hunter_ws/build/scout_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/scout_description
+Invoked command in '/workspace/Projects/hunter_ws/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/scout_description

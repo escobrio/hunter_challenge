@@ -1,0 +1,883 @@
+[0.114s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.115s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe85e03ea40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe85e1b7610>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe85e1b7610>>)
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.304s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspace/Projects/hunter_ws'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_base) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_base) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_base) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_base) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_base) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_base) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_base) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_base) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_base) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sim/hunter/hunter2_base' with type 'ros.ament_cmake' and name 'hunter2_base'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_gazebo) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_gazebo) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_gazebo) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_gazebo) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_gazebo) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_gazebo) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_gazebo) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/hunter2_gazebo) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sim/hunter/hunter2_gazebo' with type 'ros.ament_cmake' and name 'hunter2_gazebo'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/image) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/image) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/image) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/image) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/image) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/image) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/image) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/image) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/image) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/image) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/image) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/image) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/image) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter/image) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_description) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_description) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_description) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_description) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_description) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_description) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_description) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_description) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_description) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sim/hunter_se/hunter_se_description' with type 'ros.ament_cmake' and name 'hunter_se_description'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_gazebo) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_gazebo) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_gazebo) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_gazebo) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_gazebo) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_gazebo) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_gazebo) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/hunter_se_gazebo) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sim/hunter_se/hunter_se_gazebo' with type 'ros.ament_cmake' and name 'hunter_se_gazebo'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/image) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/image) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/image) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/image) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/image) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/image) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/image) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/image) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/image) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/image) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/image) by extension 'cmake'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/image) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/image) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/hunter_se/image) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger) by extension 'ros'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger) by extensions ['cmake', 'python']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger) by extension 'cmake'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger) by extension 'python'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger) by extensions ['python_setup_py']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/four_ws_control) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/four_ws_control) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/four_ws_control) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/four_ws_control) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/four_ws_control) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/four_ws_control) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/four_ws_control) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/four_ws_control) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/four_ws_control) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sim/ranger/four_ws_control' with type 'ros.ament_cmake' and name 'four_ws_control'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/imgae) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/imgae) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/imgae) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/imgae) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/imgae) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/imgae) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/imgae) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/imgae) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/imgae) by extension 'ros'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/imgae) by extensions ['cmake', 'python']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/imgae) by extension 'cmake'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/imgae) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/imgae) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/imgae) by extension 'python_setup_py'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/ranger_mini) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/ranger_mini) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/ranger_mini) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/ranger_mini) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/ranger_mini) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/ranger_mini) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/ranger_mini) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/ranger_mini) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/ranger/ranger_mini) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sim/ranger/ranger_mini' with type 'ros.ament_cmake' and name 'ranger_mini'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/image) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/image) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/image) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/image) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/image) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/image) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/image) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/image) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/image) by extension 'ros'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/image) by extensions ['cmake', 'python']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/image) by extension 'cmake'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/image) by extension 'python'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/image) by extensions ['python_setup_py']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/image) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_description) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_description) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_description) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_description) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_description) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_description) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_description) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_description) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_description) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sim/scout/scout_description' with type 'ros.ament_cmake' and name 'scout_description'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_gazebo_sim) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_gazebo_sim) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_gazebo_sim) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_gazebo_sim) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_gazebo_sim) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_gazebo_sim) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_gazebo_sim) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/scout/scout_gazebo_sim) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sim/scout/scout_gazebo_sim' with type 'ros.ament_cmake' and name 'scout_gazebo_sim'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer) by extension 'ros'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer) by extensions ['cmake', 'python']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer) by extension 'cmake'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer) by extension 'python_setup_py'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/image) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/image) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/image) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/image) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/image) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/image) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/image) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/image) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/image) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/image) by extensions ['cmake', 'python']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/image) by extension 'cmake'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/image) by extension 'python'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/image) by extensions ['python_setup_py']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/image) by extension 'python_setup_py'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_description) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_description) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_description) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_description) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_description) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_description) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_description) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_description) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_description) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sim/tracer/tracer_description' with type 'ros.ament_cmake' and name 'tracer_description'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_gazebo_sim) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_gazebo_sim) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_gazebo_sim) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_gazebo_sim) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_gazebo_sim) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_gazebo_sim) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_gazebo_sim) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim/tracer/tracer_gazebo_sim) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sim/tracer/tracer_gazebo_sim' with type 'ros.ament_cmake' and name 'tracer_gazebo_sim'
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.366s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 335 installed packages in /opt/ros/humble
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_target' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.421s] DEBUG:colcon.colcon_core.verb:Building package 'four_ws_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/Projects/hunter_ws/build/four_ws_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/Projects/hunter_ws/install/four_ws_control', 'merge_install': False, 'path': '/workspace/Projects/hunter_ws/src/ugv_sim/ranger/four_ws_control', 'symlink_install': False, 'test_result_base': None}
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_base' build argument 'cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_base' build argument 'cmake_target' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'hunter2_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/Projects/hunter_ws/build/hunter2_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/Projects/hunter_ws/install/hunter2_base', 'merge_install': False, 'path': '/workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_base', 'symlink_install': False, 'test_result_base': None}
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'hunter2_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'hunter2_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/Projects/hunter_ws/build/hunter2_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/Projects/hunter_ws/install/hunter2_gazebo', 'merge_install': False, 'path': '/workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_description' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_description' build argument 'cmake_target' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.423s] DEBUG:colcon.colcon_core.verb:Building package 'hunter_se_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/Projects/hunter_ws/build/hunter_se_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/Projects/hunter_ws/install/hunter_se_description', 'merge_install': False, 'path': '/workspace/Projects/hunter_ws/src/ugv_sim/hunter_se/hunter_se_description', 'symlink_install': False, 'test_result_base': None}
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'hunter_se_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'hunter_se_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/Projects/hunter_ws/build/hunter_se_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/Projects/hunter_ws/install/hunter_se_gazebo', 'merge_install': False, 'path': '/workspace/Projects/hunter_ws/src/ugv_sim/hunter_se/hunter_se_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ranger_mini' build argument 'cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ranger_mini' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ranger_mini' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ranger_mini' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ranger_mini' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ranger_mini' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ranger_mini' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ranger_mini' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ranger_mini' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'ranger_mini' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/Projects/hunter_ws/build/ranger_mini', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/Projects/hunter_ws/install/ranger_mini', 'merge_install': False, 'path': '/workspace/Projects/hunter_ws/src/ugv_sim/ranger/ranger_mini', 'symlink_install': False, 'test_result_base': None}
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'scout_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/Projects/hunter_ws/build/scout_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/Projects/hunter_ws/install/scout_description', 'merge_install': False, 'path': '/workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_description', 'symlink_install': False, 'test_result_base': None}
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'scout_gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.426s] DEBUG:colcon.colcon_core.verb:Building package 'scout_gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/Projects/hunter_ws/build/scout_gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/Projects/hunter_ws/install/scout_gazebo_sim', 'merge_install': False, 'path': '/workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_gazebo_sim', 'symlink_install': False, 'test_result_base': None}
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tracer_description' build argument 'cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tracer_description' build argument 'cmake_target' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tracer_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tracer_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tracer_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tracer_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tracer_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tracer_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'tracer_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.426s] DEBUG:colcon.colcon_core.verb:Building package 'tracer_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/Projects/hunter_ws/build/tracer_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/Projects/hunter_ws/install/tracer_description', 'merge_install': False, 'path': '/workspace/Projects/hunter_ws/src/ugv_sim/tracer/tracer_description', 'symlink_install': False, 'test_result_base': None}
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'tracer_gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'tracer_gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'tracer_gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'tracer_gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'tracer_gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'tracer_gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'tracer_gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'tracer_gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'tracer_gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.427s] DEBUG:colcon.colcon_core.verb:Building package 'tracer_gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/Projects/hunter_ws/build/tracer_gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim', 'merge_install': False, 'path': '/workspace/Projects/hunter_ws/src/ugv_sim/tracer/tracer_gazebo_sim', 'symlink_install': False, 'test_result_base': None}
+[0.427s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.428s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.429s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/Projects/hunter_ws/src/ugv_sim/ranger/four_ws_control' with build type 'ament_cmake'
+[0.429s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/Projects/hunter_ws/src/ugv_sim/ranger/four_ws_control'
+[0.432s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.435s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_base' with build type 'ament_cmake'
+[0.435s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_base'
+[0.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.436s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.441s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_gazebo' with build type 'ament_cmake'
+[0.441s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_gazebo'
+[0.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.448s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/Projects/hunter_ws/src/ugv_sim/hunter_se/hunter_se_description' with build type 'ament_cmake'
+[0.448s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/Projects/hunter_ws/src/ugv_sim/hunter_se/hunter_se_description'
+[0.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.449s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.454s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/Projects/hunter_ws/src/ugv_sim/hunter_se/hunter_se_gazebo' with build type 'ament_cmake'
+[0.454s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/Projects/hunter_ws/src/ugv_sim/hunter_se/hunter_se_gazebo'
+[0.455s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.455s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.461s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/Projects/hunter_ws/src/ugv_sim/ranger/ranger_mini' with build type 'ament_cmake'
+[0.461s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/Projects/hunter_ws/src/ugv_sim/ranger/ranger_mini'
+[0.462s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.467s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_description' with build type 'ament_cmake'
+[0.468s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_description'
+[0.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.476s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_gazebo_sim' with build type 'ament_cmake'
+[0.476s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_gazebo_sim'
+[0.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/four_ws_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/ranger/four_ws_control -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/four_ws_control
+[0.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/hunter2_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_base -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/hunter2_base
+[0.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/hunter2_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/hunter2_gazebo
+[0.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/hunter_se_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter_se/hunter_se_description -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/hunter_se_description
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/hunter_se_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter_se/hunter_se_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/hunter_se_gazebo
+[0.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/ranger_mini': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/ranger/ranger_mini -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/ranger_mini
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/scout_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_description -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/scout_description
+[0.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_gazebo_sim -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/scout_gazebo_sim
+[1.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/ranger_mini' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/ranger/ranger_mini -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/ranger_mini
+[1.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/ranger_mini': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/ranger_mini -- -j8 -l8
+[1.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/hunter2_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/hunter2_gazebo
+[1.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/hunter2_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/hunter2_gazebo -- -j8 -l8
+[1.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/hunter2_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter/hunter2_base -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/hunter2_base
+[1.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/hunter2_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/hunter2_base -- -j8 -l8
+[1.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/hunter_se_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter_se/hunter_se_description -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/hunter_se_description
+[1.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/hunter_se_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/hunter_se_description -- -j8 -l8
+[1.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/hunter_se_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/hunter_se/hunter_se_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/hunter_se_gazebo
+[1.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/hunter_se_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/hunter_se_gazebo -- -j8 -l8
+[1.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/ranger/four_ws_control -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/four_ws_control
+[1.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/four_ws_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/four_ws_control -- -j8 -l8
+[1.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_gazebo_sim -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/scout_gazebo_sim
+[1.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/scout_gazebo_sim -- -j8 -l8
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/scout/scout_description -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/scout_description
+[1.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/scout_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/scout_description -- -j8 -l8
+[1.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/hunter2_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/hunter2_gazebo -- -j8 -l8
+[1.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/hunter2_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/hunter2_gazebo
+[1.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/ranger_mini' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/ranger_mini -- -j8 -l8
+[1.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/ranger_mini': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/ranger_mini
+[1.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/hunter2_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/hunter2_base -- -j8 -l8
+[1.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/hunter2_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/hunter2_base
+[1.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/hunter_se_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/hunter_se_description -- -j8 -l8
+[1.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/hunter_se_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/hunter_se_description
+[1.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunter2_gazebo)
+[1.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/scout_description -- -j8 -l8
+[1.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/scout_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/scout_description
+[1.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/hunter2_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/hunter2_gazebo
+[1.618s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_gazebo' for CMake module files
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_gazebo' for CMake config files
+[1.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunter2_gazebo', 'cmake_prefix_path')
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/hook/cmake_prefix_path.ps1'
+[1.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/hook/cmake_prefix_path.dsv'
+[1.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/hook/cmake_prefix_path.sh'
+[1.627s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_gazebo/bin'
+[1.627s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_gazebo/lib/pkgconfig/hunter2_gazebo.pc'
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_gazebo/lib/python3.10/site-packages'
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_gazebo/bin'
+[1.629s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/package.ps1'
+[1.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/package.dsv'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/package.sh'
+[1.637s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/package.bash'
+[1.640s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/package.zsh'
+[1.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/colcon-core/packages/hunter2_gazebo)
+[1.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunter2_gazebo)
+[1.650s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_gazebo' for CMake module files
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_gazebo' for CMake config files
+[1.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunter2_gazebo', 'cmake_prefix_path')
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/hook/cmake_prefix_path.ps1'
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/hook/cmake_prefix_path.dsv'
+[1.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/hook/cmake_prefix_path.sh'
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_gazebo/bin'
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_gazebo/lib/pkgconfig/hunter2_gazebo.pc'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_gazebo/lib/python3.10/site-packages'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_gazebo/bin'
+[1.664s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/package.ps1'
+[1.666s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/package.dsv'
+[1.666s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/package.sh'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/package.bash'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/hunter2_gazebo/package.zsh'
+[1.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/hunter2_gazebo/share/colcon-core/packages/hunter2_gazebo)
+[1.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/hunter_se_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/hunter_se_gazebo -- -j8 -l8
+[1.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/hunter_se_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/hunter_se_gazebo
+[1.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/four_ws_control -- -j8 -l8
+[1.684s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/Projects/hunter_ws/src/ugv_sim/tracer/tracer_description' with build type 'ament_cmake'
+[1.684s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/Projects/hunter_ws/src/ugv_sim/tracer/tracer_description'
+[1.685s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.686s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunter2_base)
+[1.710s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_base' for CMake module files
+[1.715s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_base' for CMake config files
+[1.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunter2_base', 'cmake_prefix_path')
+[1.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/hook/cmake_prefix_path.ps1'
+[1.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/hook/cmake_prefix_path.dsv'
+[1.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/hook/cmake_prefix_path.sh'
+[1.725s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_base/bin'
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_base/lib/pkgconfig/hunter2_base.pc'
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_base/lib/python3.10/site-packages'
+[1.727s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_base/bin'
+[1.728s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/package.ps1'
+[1.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/four_ws_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/four_ws_control
+[1.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/package.dsv'
+[1.733s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/package.sh'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/package.bash'
+[1.736s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/package.zsh'
+[1.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/hunter2_base/share/colcon-core/packages/hunter2_base)
+[1.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunter2_base)
+[1.743s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_base' for CMake module files
+[1.747s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_base' for CMake config files
+[1.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/scout_gazebo_sim -- -j8 -l8
+[1.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunter2_base', 'cmake_prefix_path')
+[1.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/hook/cmake_prefix_path.ps1'
+[1.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/hook/cmake_prefix_path.dsv'
+[1.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/scout_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/scout_gazebo_sim
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/hook/cmake_prefix_path.sh'
+[1.758s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_base/bin'
+[1.758s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_base/lib/pkgconfig/hunter2_base.pc'
+[1.759s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_base/lib/python3.10/site-packages'
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter2_base/bin'
+[1.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/hunter2_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/hunter2_base
+[1.762s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/package.ps1'
+[1.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/package.dsv'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/package.sh'
+[1.772s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/package.bash'
+[1.775s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter2_base/share/hunter2_base/package.zsh'
+[1.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/hunter2_base/share/colcon-core/packages/hunter2_base)
+[1.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunter_se_description)
+[1.779s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_description' for CMake module files
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_description' for CMake config files
+[1.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunter_se_description', 'cmake_prefix_path')
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/hook/cmake_prefix_path.ps1'
+[1.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/hunter_se_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/hunter_se_description
+[1.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/hook/cmake_prefix_path.dsv'
+[1.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/hook/cmake_prefix_path.sh'
+[1.792s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_description/bin'
+[1.792s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_description/lib/pkgconfig/hunter_se_description.pc'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_description/lib/python3.10/site-packages'
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_description/bin'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/package.ps1'
+[1.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/package.dsv'
+[1.797s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/package.sh'
+[1.797s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/package.bash'
+[1.798s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/package.zsh'
+[1.798s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/hunter_se_description/share/colcon-core/packages/hunter_se_description)
+[1.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunter_se_description)
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_description' for CMake module files
+[1.801s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_description' for CMake config files
+[1.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunter_se_description', 'cmake_prefix_path')
+[1.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/hook/cmake_prefix_path.ps1'
+[1.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/hook/cmake_prefix_path.dsv'
+[1.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/hook/cmake_prefix_path.sh'
+[1.805s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_description/bin'
+[1.805s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_description/lib/pkgconfig/hunter_se_description.pc'
+[1.806s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_description/lib/python3.10/site-packages'
+[1.808s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_description/bin'
+[1.809s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/package.ps1'
+[1.811s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/package.dsv'
+[1.812s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/package.sh'
+[1.813s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/package.bash'
+[1.814s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_description/share/hunter_se_description/package.zsh'
+[1.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/hunter_se_description/share/colcon-core/packages/hunter_se_description)
+[1.819s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/Projects/hunter_ws/src/ugv_sim/tracer/tracer_gazebo_sim' with build type 'ament_cmake'
+[1.819s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/Projects/hunter_ws/src/ugv_sim/tracer/tracer_gazebo_sim'
+[1.822s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.822s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunter_se_gazebo)
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_gazebo' for CMake module files
+[1.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/hunter_se_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/hunter_se_gazebo
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_gazebo' for CMake config files
+[1.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunter_se_gazebo', 'cmake_prefix_path')
+[1.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/hook/cmake_prefix_path.ps1'
+[1.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/hook/cmake_prefix_path.dsv'
+[1.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/hook/cmake_prefix_path.sh'
+[1.847s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/bin'
+[1.848s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/lib/pkgconfig/hunter_se_gazebo.pc'
+[1.848s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/lib/python3.10/site-packages'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/bin'
+[1.850s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/package.ps1'
+[1.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/package.dsv'
+[1.852s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/package.sh'
+[1.853s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/package.bash'
+[1.855s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/package.zsh'
+[1.858s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/colcon-core/packages/hunter_se_gazebo)
+[1.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunter_se_gazebo)
+[1.861s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_gazebo' for CMake module files
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_gazebo' for CMake config files
+[1.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunter_se_gazebo', 'cmake_prefix_path')
+[1.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/hook/cmake_prefix_path.ps1'
+[1.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/hook/cmake_prefix_path.dsv'
+[1.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/hook/cmake_prefix_path.sh'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/bin'
+[1.873s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/lib/pkgconfig/hunter_se_gazebo.pc'
+[1.874s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/lib/python3.10/site-packages'
+[1.874s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/bin'
+[1.875s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/package.ps1'
+[1.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/package.dsv'
+[1.877s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/package.sh'
+[1.878s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/package.bash'
+[1.915s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/hunter_se_gazebo/package.zsh'
+[1.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/hunter_se_gazebo/share/colcon-core/packages/hunter_se_gazebo)
+[1.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/tracer_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/tracer/tracer_description -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/tracer_description
+[1.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(four_ws_control)
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/four_ws_control' for CMake module files
+[1.940s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/four_ws_control' for CMake config files
+[1.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_ws_control', 'cmake_prefix_path')
+[1.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.ps1'
+[1.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/four_ws_control
+[1.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.dsv'
+[1.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.sh'
+[1.948s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/four_ws_control/lib'
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/four_ws_control/bin'
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/four_ws_control/lib/pkgconfig/four_ws_control.pc'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/four_ws_control/lib/python3.10/site-packages'
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/four_ws_control/bin'
+[1.952s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/package.ps1'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/package.dsv'
+[1.975s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/package.sh'
+[1.978s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/package.bash'
+[1.984s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/package.zsh'
+[1.987s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/four_ws_control/share/colcon-core/packages/four_ws_control)
+[1.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(four_ws_control)
+[1.990s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/four_ws_control' for CMake module files
+[1.991s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/four_ws_control' for CMake config files
+[1.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_ws_control', 'cmake_prefix_path')
+[1.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.ps1'
+[1.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.dsv'
+[1.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.sh'
+[1.996s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/four_ws_control/lib'
+[1.996s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/four_ws_control/bin'
+[1.996s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/four_ws_control/lib/pkgconfig/four_ws_control.pc'
+[1.997s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/four_ws_control/lib/python3.10/site-packages'
+[1.997s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/four_ws_control/bin'
+[1.998s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/package.ps1'
+[1.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/package.dsv'
+[2.000s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/package.sh'
+[2.002s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/package.bash'
+[2.003s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/four_ws_control/share/four_ws_control/package.zsh'
+[2.004s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/four_ws_control/share/colcon-core/packages/four_ws_control)
+[2.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_description)
+[2.006s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_description' for CMake module files
+[2.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/scout_description
+[2.007s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_description' for CMake config files
+[2.008s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_description', 'cmake_prefix_path')
+[2.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.ps1'
+[2.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.dsv'
+[2.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.sh'
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_description/bin'
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_description/lib/pkgconfig/scout_description.pc'
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_description/lib/python3.10/site-packages'
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_description/bin'
+[2.011s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/package.ps1'
+[2.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/package.dsv'
+[2.012s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/package.sh'
+[2.013s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/package.bash'
+[2.014s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/package.zsh'
+[2.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/scout_description/share/colcon-core/packages/scout_description)
+[2.015s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_description)
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_description' for CMake module files
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_description' for CMake config files
+[2.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_description', 'cmake_prefix_path')
+[2.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.ps1'
+[2.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.dsv'
+[2.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.sh'
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_description/bin'
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_description/lib/pkgconfig/scout_description.pc'
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_description/lib/python3.10/site-packages'
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_description/bin'
+[2.023s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/package.ps1'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/package.dsv'
+[2.025s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/package.sh'
+[2.026s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/package.bash'
+[2.026s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_description/share/scout_description/package.zsh'
+[2.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/scout_description/share/colcon-core/packages/scout_description)
+[2.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_gazebo_sim)
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_gazebo_sim' for CMake module files
+[2.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/scout_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/scout_gazebo_sim
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_gazebo_sim' for CMake config files
+[2.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_gazebo_sim', 'cmake_prefix_path')
+[2.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.ps1'
+[2.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.dsv'
+[2.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.sh'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/bin'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/lib/pkgconfig/scout_gazebo_sim.pc'
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/lib/python3.10/site-packages'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/bin'
+[2.036s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/package.ps1'
+[2.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/package.dsv'
+[2.039s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/package.sh'
+[2.040s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/package.bash'
+[2.041s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/package.zsh'
+[2.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/colcon-core/packages/scout_gazebo_sim)
+[2.043s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_gazebo_sim)
+[2.044s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_gazebo_sim' for CMake module files
+[2.044s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_gazebo_sim' for CMake config files
+[2.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_gazebo_sim', 'cmake_prefix_path')
+[2.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.ps1'
+[2.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.dsv'
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/hook/cmake_prefix_path.sh'
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/bin'
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/lib/pkgconfig/scout_gazebo_sim.pc'
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/lib/python3.10/site-packages'
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/bin'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/package.ps1'
+[2.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/package.dsv'
+[2.053s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/package.sh'
+[2.056s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/package.bash'
+[2.057s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/scout_gazebo_sim/package.zsh'
+[2.058s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/scout_gazebo_sim/share/colcon-core/packages/scout_gazebo_sim)
+[2.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ranger_mini)
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/ranger_mini' for CMake module files
+[2.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/tracer_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/tracer/tracer_gazebo_sim -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/tracer_gazebo_sim
+[2.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/ranger_mini' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/ranger_mini
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/ranger_mini' for CMake config files
+[2.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('ranger_mini', 'cmake_prefix_path')
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/hook/cmake_prefix_path.ps1'
+[2.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/hook/cmake_prefix_path.dsv'
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/hook/cmake_prefix_path.sh'
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/ranger_mini/bin'
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/ranger_mini/lib/pkgconfig/ranger_mini.pc'
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/ranger_mini/lib/python3.10/site-packages'
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/ranger_mini/bin'
+[2.078s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/package.ps1'
+[2.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/package.dsv'
+[2.081s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/package.sh'
+[2.081s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/package.bash'
+[2.082s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/package.zsh'
+[2.082s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/ranger_mini/share/colcon-core/packages/ranger_mini)
+[2.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ranger_mini)
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/ranger_mini' for CMake module files
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/ranger_mini' for CMake config files
+[2.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('ranger_mini', 'cmake_prefix_path')
+[2.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/hook/cmake_prefix_path.ps1'
+[2.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/hook/cmake_prefix_path.dsv'
+[2.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/hook/cmake_prefix_path.sh'
+[2.091s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/ranger_mini/bin'
+[2.091s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/ranger_mini/lib/pkgconfig/ranger_mini.pc'
+[2.091s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/ranger_mini/lib/python3.10/site-packages'
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/ranger_mini/bin'
+[2.092s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/package.ps1'
+[2.093s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/package.dsv'
+[2.094s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/package.sh'
+[2.094s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/package.bash'
+[2.095s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/ranger_mini/share/ranger_mini/package.zsh'
+[2.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/ranger_mini/share/colcon-core/packages/ranger_mini)
+[2.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/tracer_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/tracer/tracer_description -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/tracer_description
+[2.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/tracer_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/tracer_description -- -j8 -l8
+[2.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/tracer_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/tracer_description -- -j8 -l8
+[2.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/tracer_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/tracer_description
+[2.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/tracer_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/Projects/hunter_ws/src/ugv_sim/tracer/tracer_gazebo_sim -DCMAKE_INSTALL_PREFIX=/workspace/Projects/hunter_ws/install/tracer_gazebo_sim
+[2.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/tracer_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/tracer_gazebo_sim -- -j8 -l8
+[3.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/tracer_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/hunter_ws/build/tracer_gazebo_sim -- -j8 -l8
+[3.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/Projects/hunter_ws/build/tracer_gazebo_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/tracer_gazebo_sim
+[3.032s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracer_description)
+[3.033s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_description' for CMake module files
+[3.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/tracer_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/tracer_description
+[3.034s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_description' for CMake config files
+[3.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_description', 'cmake_prefix_path')
+[3.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/hook/cmake_prefix_path.ps1'
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/hook/cmake_prefix_path.dsv'
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/hook/cmake_prefix_path.sh'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_description/bin'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_description/lib/pkgconfig/tracer_description.pc'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_description/lib/python3.10/site-packages'
+[3.038s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_description/bin'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/package.ps1'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/package.dsv'
+[3.039s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/package.sh'
+[3.041s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/package.bash'
+[3.042s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/package.zsh'
+[3.043s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/tracer_description/share/colcon-core/packages/tracer_description)
+[3.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracer_description)
+[3.046s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_description' for CMake module files
+[3.048s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_description' for CMake config files
+[3.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_description', 'cmake_prefix_path')
+[3.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/hook/cmake_prefix_path.ps1'
+[3.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/hook/cmake_prefix_path.dsv'
+[3.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/hook/cmake_prefix_path.sh'
+[3.050s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_description/bin'
+[3.050s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_description/lib/pkgconfig/tracer_description.pc'
+[3.051s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_description/lib/python3.10/site-packages'
+[3.051s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_description/bin'
+[3.052s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/package.ps1'
+[3.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/package.dsv'
+[3.053s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/package.sh'
+[3.054s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/package.bash'
+[3.054s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_description/share/tracer_description/package.zsh'
+[3.055s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/tracer_description/share/colcon-core/packages/tracer_description)
+[3.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracer_gazebo_sim)
+[3.057s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim' for CMake module files
+[3.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/Projects/hunter_ws/build/tracer_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/hunter_ws/build/tracer_gazebo_sim
+[3.059s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim' for CMake config files
+[3.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_gazebo_sim', 'cmake_prefix_path')
+[3.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/hook/cmake_prefix_path.ps1'
+[3.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/hook/cmake_prefix_path.dsv'
+[3.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/hook/cmake_prefix_path.sh'
+[3.062s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/bin'
+[3.062s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/lib/pkgconfig/tracer_gazebo_sim.pc'
+[3.062s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/lib/python3.10/site-packages'
+[3.063s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/bin'
+[3.064s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/package.ps1'
+[3.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/package.dsv'
+[3.065s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/package.sh'
+[3.066s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/package.bash'
+[3.066s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/package.zsh'
+[3.067s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/colcon-core/packages/tracer_gazebo_sim)
+[3.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracer_gazebo_sim)
+[3.068s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim' for CMake module files
+[3.069s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim' for CMake config files
+[3.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_gazebo_sim', 'cmake_prefix_path')
+[3.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/hook/cmake_prefix_path.ps1'
+[3.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/hook/cmake_prefix_path.dsv'
+[3.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/hook/cmake_prefix_path.sh'
+[3.072s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/bin'
+[3.073s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/lib/pkgconfig/tracer_gazebo_sim.pc'
+[3.073s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/lib/python3.10/site-packages'
+[3.074s] Level 1:colcon.colcon_core.environment:checking '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/bin'
+[3.074s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/package.ps1'
+[3.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/package.dsv'
+[3.077s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/package.sh'
+[3.078s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/package.bash'
+[3.078s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/tracer_gazebo_sim/package.zsh'
+[3.079s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/Projects/hunter_ws/install/tracer_gazebo_sim/share/colcon-core/packages/tracer_gazebo_sim)
+[3.079s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.080s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.080s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.080s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.090s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.090s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.090s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.090s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.093s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[3.094s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.095s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/Projects/hunter_ws/install/local_setup.ps1'
+[3.097s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/Projects/hunter_ws/install/_local_setup_util_ps1.py'
+[3.101s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/Projects/hunter_ws/install/setup.ps1'
+[3.102s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/Projects/hunter_ws/install/local_setup.sh'
+[3.103s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/Projects/hunter_ws/install/_local_setup_util_sh.py'
+[3.105s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/Projects/hunter_ws/install/setup.sh'
+[3.107s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/Projects/hunter_ws/install/local_setup.bash'
+[3.108s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/Projects/hunter_ws/install/setup.bash'
+[3.111s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/Projects/hunter_ws/install/local_setup.zsh'
+[3.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/Projects/hunter_ws/install/setup.zsh'

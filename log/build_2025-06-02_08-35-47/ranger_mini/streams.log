@@ -1,0 +1,49 @@
+[0.093s] Invoking command in '/workspace/Projects/build/ranger_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/ranger_mini -- -j8 -l8
+[0.312s] Invoked command in '/workspace/Projects/build/ranger_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --build /workspace/Projects/build/ranger_mini -- -j8 -l8
+[0.313s] Invoking command in '/workspace/Projects/build/ranger_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/ranger_mini
+[0.361s] -- Install configuration: ""
+[0.362s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/launch
+[0.362s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/launch/ranger_mini.launch.py
+[0.362s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/launch/ranger_mini_v2_gazebo.launch.py
+[0.362s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/launch/ranger_mini_spawn.launch.py
+[0.363s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/launch/ranger_mini_v2_display.launch.py
+[0.363s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/meshes
+[0.363s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/meshes/fl.stl
+[0.363s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/meshes/fl_Link.STL
+[0.364s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/meshes/fr.dae
+[0.366s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/meshes/bl_Link.STL
+[0.367s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/meshes/ranger_base.dae
+[0.367s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/meshes/ranger_base.zip
+[0.367s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/meshes/br_Link.STL
+[0.367s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/meshes/base_link.STL
+[0.368s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/meshes/fr_Link.STL
+[0.368s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/meshes/fl.dae
+[0.369s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/meshes/fr.stl
+[0.369s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/rviz
+[0.369s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/rviz/urdf.rviz
+[0.369s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/rviz/display.rviz
+[0.370s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/urdf
+[0.370s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/urdf/ranger_mini_gazebo.xacro
+[0.371s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/urdf/ranger_l.xacro
+[0.371s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/urdf/ranger_r.xacro
+[0.371s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/urdf/ranger_mini_gazebo copy.xacro
+[0.371s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/urdf/ranger_mini.xacro
+[0.372s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/urdf/ranger_mini.urdf
+[0.372s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/urdf/gazebo.xacro
+[0.372s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/urdf/ranger_mini.csv
+[0.373s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ament_index/resource_index/package_run_dependencies/ranger_mini
+[0.374s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ament_index/resource_index/parent_prefix_path/ranger_mini
+[0.374s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/environment/ament_prefix_path.sh
+[0.374s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/environment/ament_prefix_path.dsv
+[0.374s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/environment/path.sh
+[0.375s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/environment/path.dsv
+[0.375s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/local_setup.bash
+[0.375s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/local_setup.sh
+[0.375s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/local_setup.zsh
+[0.375s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/local_setup.dsv
+[0.375s] -- Installing: /workspace/Projects/install/ranger_mini/share/ranger_mini/package.dsv
+[0.376s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ament_index/resource_index/packages/ranger_mini
+[0.376s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/cmake/ranger_miniConfig.cmake
+[0.376s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/cmake/ranger_miniConfig-version.cmake
+[0.376s] -- Up-to-date: /workspace/Projects/install/ranger_mini/share/ranger_mini/package.xml
+[0.517s] Invoked command in '/workspace/Projects/build/ranger_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/sevensense_pkg:/opt/ros/humble /usr/bin/cmake --install /workspace/Projects/build/ranger_mini
